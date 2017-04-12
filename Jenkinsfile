@@ -27,8 +27,8 @@ pipeline {
     stage('') {
       steps {
         parallel(
-          "": {
-            mail(subject: 'Magnus', body: ':-D')
+          "aaa": {
+            sleep 5
             
           },
           "Update part 1": {
